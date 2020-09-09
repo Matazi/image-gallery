@@ -1,0 +1,153 @@
+body{
+    font-size : 17x;
+    color: hsl(160, 70%, 30%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(238, 238, 238);
+}
+
+/* .logo a{
+
+font-size: 40px;
+color: brown;
+text-decoration: none;
+} */
+.container{
+    /* background-color: qhirw; */
+    margin-left: -7px;
+    margin-right: -7px;
+    display: flex;
+    flex-flow: column;
+    /* background-image: url("../uploads/11.jpg"); */
+}
+.logoR{
+    /* /* display: inline-block; */
+    /* margin-left: -200px; */
+    /* margin-right: 250px; */
+    /* margin-bottom: -30px; */
+    /* margin-top : -10px;
+    position: relative; */
+    padding-left : 400px;
+    padding-top : 100px;
+    padding-bottom: 100px;
+    background-color: white;
+    /* background-image : url("../uploads/back2.png"); */
+
+}
+
+.navBar{
+    display: flex;
+    /* flex-flow: row; */
+    margin : auto;
+    width: 60%;
+    border: 3px;
+    margin-left: 130px;
+    padding-top: 10px;
+    padding-right: 70px;
+
+    /* background-color: #fa9d99; */
+
+}
+.uploadyap{
+    display: inline;
+    margin-left: 40px;
+}
+.selectOption{
+    /* flex-grow: 2; */
+    margin: auto;
+}
+.uploadBut{
+    background-color: hsl(160, 70%, 30%);
+    color : white;
+    border-radius: 5px;
+    /* margin-left: 5px; */
+    padding-left: 3px;
+    margin-top: 4px;
+    margin-bottom: 5px;
+    width : 140px;
+    font-weight: inherit;
+    /* margin-bottom: 41px;
+    margin-top:  38px;
+    padding: 4px 10px;
+    padding-bottom: -20px;
+
+
+
+
+    cursor:pointer;
+    margin-left: -200px; */
+    /* background-color: black; */
+
+}
+#ButUploadHidden{
+    display:  none;
+}
+label{
+    cursor:pointer;
+}
+.uploadBut:hover{
+    background-color: #6ce976;
+}
+select
+{
+    width:400px;
+    height: 30px;
+    cursor:pointer;
+
+    font-family: Proxima Nova,helvetica neue,helvetica,arial,sans-serif;
+}
+
+.row-of-pictures{
+    margin-right : 50px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.imgTimeline{
+    padding: 5px;
+    flex-grow: 2;
+}
+
+
+
+.photoCenter{
+    text-align: center;
+    background-color: black;
+    margin-top: 50px;
+    padding-top: 0px;
+}
+
+
+.hidden{
+    display: none;
+}
+
+
+.plus_Button, .minus_Button{
+    width: 50px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #6ce976;
+}
+
+
+.menu-icon{
+  width: 75px;
+  height: 50spx;
+  /* background-color: rgb(245, 92, 92); */
+  margin: 6px 0;
+}
+
+label.okay {
+    width: 68px;
+    height: 68px;
+    background: url("/uploads/uploadbut.png") no-repeat;
+    text-indent: -9999px;
+    }
+
+.group_label_input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    }
